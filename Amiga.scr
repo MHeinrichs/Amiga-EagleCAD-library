@@ -1,6 +1,6 @@
 # Library script
 # 
-# Exported from C:/Users/Matze/Amiga/Hardwarehacks/Libraries/Amiga.lbr at 17.09.2015 22:33:53
+# Exported from C:/Users/Matze/Amiga/Hardwarehacks/Libraries/Amiga.lbr at 17.09.2015 22:42:20
 # 
 # EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
 # 
@@ -16730,6 +16730,34 @@ Connect  'G$1.!AS!_P91' '91'  'G$1.!AVEC!_P96' '96'  'G$1.!BERR!_P94' '94'  'G$1
          'G$1.VCC_P60' '60'  'G$1.VCC_P70' '70'  'G$1.VCC_P80' '80'  'G$1.VCC_P102' '102'  'G$1.VCC_P120' '120'  'G$1.VCC_P140' '140' \
          'G$1.XRDY_P134' '134';
 Package 'CON_150' '_SLOT';
+Technology '';
+Connect  'G$1.!AS!_P91' 'P$91'  'G$1.!AVEC!_P96' 'P$96'  'G$1.!BERR!_P94' 'P$94'  'G$1.!BG!_P112' 'P$112'  'G$1.!BGACK!(NC)_P113' 'P$113' \
+         'G$1.!BOSS!_P114' 'P$114'  'G$1.!BR!_P111' 'P$111'  'G$1.!CBACK!(NC)_P110' 'P$110'  'G$1.!CBREQ!(NC)_109' 'P$109'  'G$1.!CC_ENA!_P126' 'P$126'  'G$1.!CFOUT!_P145' 'P$145' \
+         'G$1.!CIIN!(NC)_P107' 'P$107'  'G$1.!CIOUT!(NC)_P108' 'P$108'  'G$1.!DS!_P92' 'P$92'  'G$1.!DSACK0!_P98' 'P$98'  'G$1.!DSACK1!_P97' 'P$97'  'G$1.!ECS!(NC)_P87' 'P$87' \
+         'G$1.!FLASH!_P124' 'P$124'  'G$1.!FPU_CS!_P115' 'P$115'  'G$1.!FPU_SENSE!_P116' 'P$116'  'G$1.!HLT!_P86' 'P$86'  'G$1.!INT2!_P137' 'P$137'  'G$1.!INT6!_P138' 'P$138' \
+         'G$1.!IORDY!_P129' 'P$129'  'G$1.!IOWR!_P130' 'P$130'  'G$1.!IPEND!(NC)_P84' 'P$84'  'G$1.!KB_RESET!_P128' 'P$128'  'G$1.!NET_CS!_P121' 'P$121'  'G$1.!OCS!(NC)_P88' 'P$88' \
+         'G$1.!OE!_P131' 'P$131'  'G$1.!OVR!_P133' 'P$133'  'G$1.!REG!_P125' 'P$125'  'G$1.!RESET!_P118' 'P$118'  'G$1.!RMC!_P106' 'P$106'  'G$1.!RST!_P85' 'P$85' \
+         'G$1.!RTC_CS!_P123' 'P$123'  'G$1.!SPARE_CS!_P122' 'P$122'  'G$1.!STERM!(NC)_P95' 'P$95'  'G$1.!WAIT!_P127' 'P$127'  'G$1.!WE!_P132' 'P$132'  'G$1.!WIDE!_P136' 'P$136' \
+         'G$1.!XRXD!_P143' 'P$143'  'G$1.!XTXD!_P144' 'P$144'  'G$1.!ZORRO!_P135' 'P$135'  'G$1.-12V_P150' 'P$150'  'G$1.12V_P149' 'P$149'  'G$1.A0_P38' 'P$38' \
+         'G$1.A1_P37' 'P$37'  'G$1.A2_P36' 'P$36'  'G$1.A3_P35' 'P$35'  'G$1.A4_P34' 'P$34'  'G$1.A5_P33' 'P$33'  'G$1.A6_P32' 'P$32' \
+         'G$1.A7_P31' 'P$31'  'G$1.A8_P28' 'P$28'  'G$1.A9_P27' 'P$27'  'G$1.A10_P26' 'P$26'  'G$1.A11_P25' 'P$25'  'G$1.A12_P24' 'P$24' \
+         'G$1.A13_P23' 'P$23'  'G$1.A14_P22' 'P$22'  'G$1.A15_P21' 'P$21'  'G$1.A16_P18' 'P$18'  'G$1.A17_P17' 'P$17'  'G$1.A18_P16' 'P$16' \
+         'G$1.A19_P15' 'P$15'  'G$1.A20_P14' 'P$14'  'G$1.A21_P13' 'P$13'  'G$1.A22_P12' 'P$12'  'G$1.A23_P11' 'P$11'  'G$1.A24_P8' 'P$8' \
+         'G$1.A25_P7' 'P$7'  'G$1.A26_P6' 'P$6'  'G$1.A27_P5' 'P$5'  'G$1.A28_P4' 'P$4'  'G$1.A29_P3' 'P$3'  'G$1.A30_P2' 'P$2' \
+         'G$1.A31_P1' 'P$1'  'G$1.AGND_P146' 'P$146'  'G$1.CCK_P117' 'P$117'  'G$1.CPU_CLK_P99' 'P$99'  'G$1.D0_P78' 'P$78'  'G$1.D1_P77' 'P$77' \
+         'G$1.D2_P76' 'P$76'  'G$1.D3_P75' 'P$75'  'G$1.D4_P74' 'P$74'  'G$1.D5_P73' 'P$73'  'G$1.D6_P72' 'P$72'  'G$1.D7_P71' 'P$71' \
+         'G$1.D8_P68' 'P$68'  'G$1.D9_P67' 'P$67'  'G$1.D10_P66' 'P$66'  'G$1.D11_P65' 'P$65'  'G$1.D12_P64' 'P$64'  'G$1.D13_P63' 'P$63' \
+         'G$1.D14_P62' 'P$62'  'G$1.D15_P61' 'P$61'  'G$1.D16_P58' 'P$58'  'G$1.D17_P57' 'P$57'  'G$1.D18_P56' 'P$56'  'G$1.D19_P55' 'P$55' \
+         'G$1.D20_P54' 'P$54'  'G$1.D21_P53' 'P$53'  'G$1.D22_P52' 'P$52'  'G$1.D23_P51' 'P$51'  'G$1.D24_P48' 'P$48'  'G$1.D25_P47' 'P$47' \
+         'G$1.D26_P46' 'P$46'  'G$1.D27_P45' 'P$45'  'G$1.D28_P44' 'P$44'  'G$1.D29_P43' 'P$43'  'G$1.D30_P42' 'P$42'  'G$1.D31_P41' 'P$41' \
+         'G$1.E_P100' 'P$100'  'G$1.FC0_P105' 'P$105'  'G$1.FC1_P104' 'P$104'  'G$1.FC2_P103' 'P$103'  'G$1.GND_P9' 'P$9'  'G$1.GND_P19' 'P$19' \
+         'G$1.GND_P29' 'P$29'  'G$1.GND_P39' 'P$39'  'G$1.GND_P49' 'P$49'  'G$1.GND_P59' 'P$59'  'G$1.GND_P69' 'P$69'  'G$1.GND_P79' 'P$79' \
+         'G$1.GND_P101' 'P$101'  'G$1.GND_P119' 'P$119'  'G$1.GND_P139' 'P$139'  'G$1.ILP2_P81' 'P$81'  'G$1.IPL0_P83' 'P$83'  'G$1.IPL1_P82' 'P$82' \
+         'G$1.LEFT_P147' 'P$147'  'G$1.RIGHT_P148' 'P$148'  'G$1.RW_P93' 'P$93'  'G$1.SIZ0_P90' 'P$90'  'G$1.SIZ1_P89' 'P$89'  'G$1.SYSTEM0_P142' 'P$142' \
+         'G$1.SYSTEM1_P141' 'P$141'  'G$1.VCC_P10' 'P$10'  'G$1.VCC_P20' 'P$20'  'G$1.VCC_P30' 'P$30'  'G$1.VCC_P40' 'P$40'  'G$1.VCC_P50' 'P$50' \
+         'G$1.VCC_P60' 'P$60'  'G$1.VCC_P70' 'P$70'  'G$1.VCC_P80' 'P$80'  'G$1.VCC_P102' 'P$102'  'G$1.VCC_P120' 'P$120'  'G$1.VCC_P140' 'P$140' \
+         'G$1.XRDY_P134' 'P$134';
+Package 'CON_150_SMALL_HOLES' '_SLOT-SMALL-HOLES';
 Technology '';
 Connect  'G$1.!AS!_P91' 'P$91'  'G$1.!AVEC!_P96' 'P$96'  'G$1.!BERR!_P94' 'P$94'  'G$1.!BG!_P112' 'P$112'  'G$1.!BGACK!(NC)_P113' 'P$113' \
          'G$1.!BOSS!_P114' 'P$114'  'G$1.!BR!_P111' 'P$111'  'G$1.!CBACK!(NC)_P110' 'P$110'  'G$1.!CBREQ!(NC)_109' 'P$109'  'G$1.!CC_ENA!_P126' 'P$126'  'G$1.!CFOUT!_P145' 'P$145' \
