@@ -1,6 +1,6 @@
 # Library script
 # 
-# Exported from C:/Users/Matze/Amiga/Hardwarehacks/Libraries/Amiga.lbr at 11.12.2015 13:13:11
+# Exported from C:/Users/hein_mh/Downloads/Amiga.lbr at 12.07.2016 09:17:34
 # 
 # EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
 # 
@@ -17119,8 +17119,8 @@ Add 1VCC-1GND 'PWR' request 0 (-12.7 0);
 Package 'DIP40-6' '_DIP';
 Technology '';
 Connect  'G$1.!CS' '23'  'G$1.!F' '24'  'G$1.!INT' '21'  'G$1.!PC' '18'  'G$1.!RESET' '34' \
-         'G$1.!W' '22'  'G$1.C' '40'  'G$1.D0' '26'  'G$1.D1' '27'  'G$1.D2' '28'  'G$1.D3' '29' \
-         'G$1.D4' '30'  'G$1.D5' '31'  'G$1.D6' '32'  'G$1.D7' '33'  'G$1.E' '25'  'G$1.PA0' '2' \
+         'G$1.!W' '22'  'G$1.C' '40'  'G$1.D0' '33'  'G$1.D1' '32'  'G$1.D2' '31'  'G$1.D3' '30' \
+         'G$1.D4' '29'  'G$1.D5' '28'  'G$1.D6' '27'  'G$1.D7' '26'  'G$1.E' '25'  'G$1.PA0' '2' \
          'G$1.PA1' '3'  'G$1.PA2' '4'  'G$1.PA3' '5'  'G$1.PA4' '6'  'G$1.PA5' '7'  'G$1.PA6' '8' \
          'G$1.PA7' '9'  'G$1.PB0' '10'  'G$1.PB1' '11'  'G$1.PB2' '12'  'G$1.PB3' '13'  'G$1.PB4' '14' \
          'G$1.PB5' '15'  'G$1.PB6' '16'  'G$1.PB7' '17'  'G$1.RS0' '38'  'G$1.RS1' '37'  'G$1.RS2' '36' \
@@ -17146,8 +17146,8 @@ Connect  'G$1.!CS' '25'  'G$1.!F' '26'  'G$1.!INT' '23'  'G$1.!PC' '20'  'G$1.!R
 Package 'DIL40-CIA' '_DIP_LABEL';
 Technology '';
 Connect  'G$1.!CS' '23'  'G$1.!F' '24'  'G$1.!INT' '21'  'G$1.!PC' '18'  'G$1.!RESET' '34' \
-         'G$1.!W' '22'  'G$1.C' '40'  'G$1.D0' '26'  'G$1.D1' '27'  'G$1.D2' '28'  'G$1.D3' '29' \
-         'G$1.D4' '30'  'G$1.D5' '31'  'G$1.D6' '32'  'G$1.D7' '33'  'G$1.E' '25'  'G$1.PA0' '2' \
+         'G$1.!W' '22'  'G$1.C' '40'  'G$1.D0' '33'  'G$1.D1' '32'  'G$1.D2' '31'  'G$1.D3' '30' \
+         'G$1.D4' '29'  'G$1.D5' '28'  'G$1.D6' '27'  'G$1.D7' '26'  'G$1.E' '25'  'G$1.PA0' '2' \
          'G$1.PA1' '3'  'G$1.PA2' '4'  'G$1.PA3' '5'  'G$1.PA4' '6'  'G$1.PA5' '7'  'G$1.PA6' '8' \
          'G$1.PA7' '9'  'G$1.PB0' '10'  'G$1.PB1' '11'  'G$1.PB2' '12'  'G$1.PB3' '13'  'G$1.PB4' '14' \
          'G$1.PB5' '15'  'G$1.PB6' '16'  'G$1.PB7' '17'  'G$1.RS0' '38'  'G$1.RS1' '37'  'G$1.RS2' '36' \
